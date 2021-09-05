@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@300;400;600&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Azeret Mono', monospace;
+
+}
+body{
+    background-color:#05386b;
+}
+
+
+.container{
+    margin: 0 auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+
+      
+}
+.first{
+    font-size: 8rem;
+    text-align: center;
+    /* margin-top: 10px; */
+    color: yellowgreen;
+    text-shadow: 0px 0px 30px #01172e;
+    
+
+  
+
+
+}
+
+.boxes{
+    
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+    height:15%;
+    
+    
+    
+
+    
+}
+
+.box{
+   
+    
+    width:15%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0555a6;
+   
+    position: relative;
+    
+
+}
+
+.name{
+    
+   text-align: center;
+    width: 100%;
+    background-color: #042e57;
+
+    
+}
+.value{
+    font-size: 150%;
+    margin-bottom:20px ;
+   
+    
+}
+
+p{
+    color:yellowgreen;
+}
+
+.box:hover{
+    bottom:10px;
+    box-shadow:0px 0px 50px  #01172e ;
+}
+
+.footer{
+    text-align: center;
+    background-color: yellowgreen;
+}
+
+.footer a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+   
+
+}
+
+h1{
+    text-align: center;
+    font-size: 100px;
+    color: whitesmoke;
+    padding-top: 25px;
+}
+#green{
+    color: yellowgreen;
+}
+
