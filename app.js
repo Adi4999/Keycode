@@ -20,15 +20,25 @@ body.addEventListener('keydown',function(e){
    
   if(e.keyCode==32){
     first.textContent=e.keyCode;
-    eventkey.style.fontSize="20px"
+    eventkey.style.fontSize="20px";
     eventkey.textContent="space character";
     eventkeycode.textContent=e.keyCode;
     eventcode.textContent=e.code;
     eventlocation.textContent=e.location;
   }
+  else if(e.code.length>=10){
+    eventcode.style.fontSize="20px";
+    first.textContent=e.keyCode;
+    eventkey.textContent=e.key;
+    eventkeycode.textContent=e.keyCode;
+    eventcode.textContent=e.code;
+    eventlocation.textContent=e.location;
+  
+  }
 
   else{
     eventkey.style.fontSize="150%"
+    eventcode.style.fontSize="150%";
     first.textContent=e.keyCode;
     eventkey.textContent=e.key;
     eventkeycode.textContent=e.keyCode;
